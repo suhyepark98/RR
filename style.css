@@ -1,0 +1,160 @@
+html header {
+    background-color: #B2D6D9;
+	padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+header:hover {
+    cursor: pointer;
+}
+
+nav {
+    background-color: #C4C4C4;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+.vendor-wrapper {
+	justify-content: left;
+	padding-left: 40px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.vendor-photo {
+	max-width: 200px;
+	max-height: 150px;
+	padding-right: 20px;
+}
+
+.vendor-book-button {
+	font-size: 2em;
+}
+
+.content-pane {
+  padding-left: 80px;
+}
+
+body {
+    font-size: 1em;
+    font-family: Copperplate;
+}
+
+.title {
+    font-size: 2em;
+    font-family: Copperplate;
+}
+
+.navbar {
+    font-size: 1em;
+    font-family: Copperplate;
+}
+
+.navbar:hover {
+    cursor: pointer;
+}
+
+footer {
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #C4C4C4;
+}
+
+.add-to-cart {
+    border: 1px solid #C7C6C6;
+    border-radius: 8px;
+}
+
+.add-to-cart:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.product {
+    padding: 5px;
+    width: 150px;
+  }
+  
+.product:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid #000000;
+  }
+
+  .product-description:hover {
+    color: #7c7c7c;
+    cursor: pointer;
+  }
+
+  .category {
+    padding-top: 40px;
+    padding-left: 80px;
+  }
+
+  .cart {
+    border: 1px solid #C7C6C6;
+    border-radius: 8px;
+  }
+
+  .cart:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.search-container {
+    float: right;
+    margin-right: 100px; 
+    margin-top: 40px;
+}
+
+.search-button {
+    border: 1px solid #868686;
+    border-radius: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid #000000;
+  }
+
+.search {
+    margin-left: 80px; margin-top: 48px; 
+}
+
+.flex-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-grid .col {
+    width: 32%;
+}
+
+.col {
+    flex: 1;
+}
+
+@media only screen and (max-width:1024px){
+    .flex-grid {
+        display: block;
+    }
+}
+
+
+.item {
+    margin-bottom: 60px;
+}
+
+.title:hover {
+    color:#7c7c7c;
+}

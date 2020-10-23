@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Pacific Northwest X-Ray Inc.</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="./xray.png" style="width: 80px; float: left; border-radius: 10px;" />
+    <img class="cart" src="./cart.png" style="width: 40px; float: right; border-radius: 5px;" />
+    <h1 class="title"> &#10240 Pacific Northwest X-Ray Inc.</h1>
+  </header>
+  <nav>
+    <h2 class="navbar">Home | Equipment | Accessories | Supplies | Parts</h2>
+  </nav>
+  <div class="search">
+    <select id="list" style="font-family: Copperplate; border-radius: 8px;">
+      <option value="0">All</option>
+      <option value="1">Labels and Dispensers</option>
+      <option value="2">Hand Sanitizer</option>
+      <option value="3">CT Gantry Covers</option>
+      <option value="4">CR Plate Cleaning System</option>
+      <option value="5">Custom Printed CD/DVD Storage Media and Packaging</option>
+      <option value="6">Exam Gowns/Capes</option>
+      <option value="7">Mailing / Filing Envelopes and Category Inserts</option>
+      <option value="8">MRI Breast Coil Covers</option>
+      <option value="9">MRI Safe Earplugs/Hearing Protection</option>
+      <option value="10">Radioactive Decontamination Products</option>
+      <option value="11">Screen Cleaners and Surface Cleaners</option>
+      <option value="12">CUltrasound Gel</option>
+      <option value="13">Ultrasound Probe Covers</option>
+      <option value="14">Wipes</option>
+    </select>
+    <input type="text" name="search" size="53" style="border-radius: 8px; margin-top: 5px; margin-bottom: 5px;">
+    <button class=" search-button" type="submit">
+      <img src="./search.png" width="15">
+    </button>
+  </div>
+
+  <h2 class="category">Color Coded Envelope Labels</h2>
+  <div class="content-pane">
+    <div class="flex-grid">
+      <div class="col">
+        <div class="item">
+          <img class="product" src="./1.png" />
+          <div class="product-description">
+            <b>
+              Large Digit Reverse Block Label</b>
+            <br>
+            $49.00 / roll<br>
+            ($420.00 / 10 rolls)<br>
+            <i>*1 roll = 1000 labels</i><br>
+            Size: 1' 7/8" x 1' 7/8"
+          </div>
+          <br>
+          <select id="color" style="margin-top: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Color</option>
+            <option value="1">Red</option>
+            <option value="2">Gray</option>
+            <option value="3">Blue</option>
+            <option value="4">Orange</option>
+            <option value="5">Purple</option>
+            <option value="6">Black</option>
+            <option value="7">Yellow</option>
+            <option value="8">Brown</option>
+            <option value="9">Pink</option>
+            <option value="10">Green</option>
+          </select>
+          <select id="quantity"
+            style="margin-top: 10px; margin-right: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Quantity</option>
+            <option value="1">1 roll</option>
+            <option value="2">2 rolls</option>
+            <option value="3">3 rolls</option>
+            <option value="4">4 rolls</option>
+            <option value="5">5 rolls</option>
+            <option value="6">6 rolls</option>
+            <option value="7">7 rolls</option>
+            <option value="8">8 rolls</option>
+            <option value="9">9 rolls</option>
+            <option value="10">10 rolls</option>
+          </select>
+          <button class="add-to-cart" type="submit" id="mp1">
+            <img src="./add_to_cart.png" width="50">
+          </button>
+        </div>
+      </div>
+      <div class="col">
+        <div class="item">
+          <img class="product" src="./2.png" />
+          <div class="product-description"><b>
+              Large Year Label</b>
+            <br>
+            $24.00 / roll<br>
+            <i>*1 roll = 1000 labels</i><br>
+            Size: 1' 7/8" x 1' 7/8"
+          </div>
+          <br>
+          <select id="color" style="margin-top: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Color</option>
+            <option value="1">Purple</option>
+            <option value="2">Black</option>
+          </select>
+          <select id="quantity"
+            style="margin-top: 10px; margin-right: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Quantity</option>
+            <option value="1">1 roll</option>
+            <option value="2">2 rolls</option>
+            <option value="3">3 rolls</option>
+            <option value="4">4 rolls</option>
+            <option value="5">5 rolls</option>
+            <option value="6">6 rolls</option>
+            <option value="7">7 rolls</option>
+            <option value="8">8 rolls</option>
+            <option value="9">9 rolls</option>
+            <option value="10">10 rolls</option>
+          </select>
+          <button class="add-to-cart" type="submit" id="mp2">
+            <img src="./add_to_cart.png" width="50">
+          </button>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="flex-grid">
+      <div class="col">
+        <div class="item">
+          <img class="product" src="./3.png" />
+          <div class="product-description"><b>
+              Solid Color Bar Label</b>
+            <br>
+            $45.00 / roll <br>
+            ($625.00 / 10 rolls)<br>
+            <i>*1 roll = 1000 labels</i><br>
+            Size: 1' 3/4" x 1/2"
+          </div>
+          <br>
+          <select id="color" style="margin-top: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Color</option>
+            <option value="1">Red</option>
+            <option value="2">Gray</option>
+            <option value="3">Blue</option>
+            <option value="4">Orange</option>
+            <option value="5">Purple</option>
+            <option value="6">Black</option>
+            <option value="7">Yellow</option>
+            <option value="8">Brown</option>
+            <option value="9">Pink</option>
+            <option value="10">Green</option>
+            <option value="7">Aqua</option>
+            <option value="8">Gold</option>
+            <option value="9">Wallet</option>
+            <option value="10">White</option>
+          </select>
+          <select id="quantity"
+            style="margin-top: 10px; margin-right: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Quantity</option>
+            <option value="1">1 roll</option>
+            <option value="2">2 rolls</option>
+            <option value="3">3 rolls</option>
+            <option value="4">4 rolls</option>
+            <option value="5">5 rolls</option>
+            <option value="6">6 rolls</option>
+            <option value="7">7 rolls</option>
+            <option value="8">8 rolls</option>
+            <option value="9">9 rolls</option>
+            <option value="10">10 rolls</option>
+          </select>
+          <button class="add-to-cart" type="submit" id="mp3">
+            <img src="./add_to_cart.png" width="50">
+          </button>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="item">
+          <img class="product" src="./4.png" />
+          <div class="product-description"><b>
+              Large Digit Reverse Block Label</b>
+            <br>
+            $15.00 / roll<br>
+            <i>*1 roll = 1000 labels</i><br>
+            Size: 1' 3/4" x 1/2"
+          </div>
+          <br>
+          <select id="color" style="margin-top: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Color</option>
+            <option value="1">Purple</option>
+            <option value="2">Black</option>
+          </select>
+          <select id="quantity"
+            style="margin-top: 10px; margin-right: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Quantity</option>
+            <option value="1">1 roll</option>
+            <option value="2">2 rolls</option>
+            <option value="3">3 rolls</option>
+            <option value="4">4 rolls</option>
+            <option value="5">5 rolls</option>
+            <option value="6">6 rolls</option>
+            <option value="7">7 rolls</option>
+            <option value="8">8 rolls</option>
+            <option value="9">9 rolls</option>
+            <option value="10">10 rolls</option>
+          </select>
+          <button class="add-to-cart" type="submit" id="mp4">
+            <img src="./add_to_cart.png" width="50">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="category">Date Label</h2>
+  <div class="content-pane">
+    <div class="flex-grid">
+      <div class="col">
+        <div class="item">
+          <img class="product" src="./5.png" />
+          <div class="product-description">
+            <b>Date Label</b>
+            <br>
+            $315.00 / 365 rolls<br>
+            <i>*1 roll = 50 labels</i><br>
+            Size: 1' 1/2" x 1/2"
+          </div>
+          <br>
+          <select id="quantity"
+            style="margin-top: 10px; margin-right: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Quantity</option>
+            <option value="1">365 * 1 rolls</option>
+            <option value="2">365 * 2 rolls</option>
+            <option value="3">365 * 3 rolls</option>
+            <option value="4">365 * 4 rolls</option>
+            <option value="5">365 * 5 rolls</option>
+          </select>
+          <button class="add-to-cart" type="submit" id="mp1">
+            <img src="./add_to_cart.png" width="50">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="category">Label Dispenser</h2>
+  <div class="content-pane">
+    <div class="flex-grid">
+      <div class="col">
+        <div class="item">
+          <img class="product" src="./label_dispenser.png" />
+          <div class="product-description">
+            <b>Label Dispenser</b>
+            <br>
+            $95.00<br>
+            Holds 1/2" and 1' 7/8" wide rolls on 1" core.
+          </div>
+          <br>
+          <select id="quantity"
+            style="margin-top: 10px; margin-right: 10px; font-family: Copperplate; border-radius: 8px;">
+            <option value="0">Quantity</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <button class="add-to-cart" type="submit" id="mp1">
+            <img src="./add_to_cart.png" width="50">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block1 btext"></div>
+  <div class="block2 btext"></div>
+  <div class="block3 btext"></div>
+  <div class="block4 btext"></div>
+  <footer>
+    <b>Contact Us</b><br><br>
+    <b>Hours:</b> Monday-Friday 8am-5pm PST<br>
+    <b>Phone:</b> 1-503-667-3000<br>
+    <b>Toll-Free (US):</b> 800-827-XRAY (800-827-9729)<br><br>
+    <b>Address:</b> P.O. Box 625 <br>
+    Gresham, OR 97030 USA
+  </footer>
+</body>
+
+</html>
